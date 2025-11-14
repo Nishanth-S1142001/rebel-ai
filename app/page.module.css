@@ -1,0 +1,61 @@
+.main {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contents {
+  z-index: 1;
+  text-align: center;
+}
+
+.contents h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+
+/* Updated Button Styles */
+.buttons {
+  display: flex;
+  gap: 1.5rem; /* Increased gap */
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.buttons button {
+  padding: 0.8rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 1000;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border: 2px solid #ffffff;
+
+  color: #7ecefa;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 4px; /* Slightly rounded corners */
+}
+
+.buttons button:hover {
+  background-color: #ffffff;
+  color: #024a70; /* Dark background color on hover */
+  box-shadow: 0 0 15px #1fa4fd;
+  font-weight: 1000px;
+  border-color: #000000;
+}
+
+/* The second button can have a slightly different style */
+.buttons button:last-child {
+  border-color: #ffffff; /* Neon pink border */
+}
+
+.buttons button:last-child:hover {
+  background-color: #000000;
+  color: #ffffff;
+  box-shadow: 0 0 15px #ffffff;
+}
